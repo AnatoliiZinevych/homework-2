@@ -6,7 +6,7 @@
 }
 
 .header {
-    font-family: 'AdobeInvisFont' 'Courier' 'MyriadPro-Regular' 'sans-serif';
+    font-family: 'AdobeInvisFont', 'Courier', 'MyriadPro-Regular', 'sans-serif';
     text-align: left;
 }
 
@@ -29,7 +29,7 @@
 
 /* TOP MENU */
 
-#top--menu {
+#topMenu {
     height: 70px;
     width: 1280px;
     margin-top: 44px;
@@ -51,7 +51,7 @@
     display: inline-block;
     justify-content: center;
     font-size: 23px;
-    font-family: serif;
+    font-family: 'sans-serif';
     text-align: center;
 }
 
@@ -92,17 +92,16 @@ ul.nav-left {
     float: left;
 }
 
-ul.nav-left li {
-    height: 63px;
-}
-
 ul.nav-left a {
+    height: 40px;
     display: block;
-    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 18px;
+    padding-left: 20px;
     text-decoration: none;
     color: #79858D;
     font-size: 23px;
-    font-family: serif;
+    font-family: sans-serif;
 }
 
 ul.nav-left a:hover {
@@ -170,7 +169,7 @@ ul.nav-left a:hover {
 }
 
 .column1 {
-    font-family: serif;
+    font-family: sans-serif;
     font-size: 18px;
     text-align: left;
     width: 815px;
@@ -181,7 +180,7 @@ ul.nav-left a:hover {
 }
 
 .column2 {
-    font-family: serif;
+    font-family: sans-serif;
     font-size: 18px;
     text-align: left;
     width: 820px;
@@ -256,7 +255,7 @@ ul.footer-menu a:hover {
     width: 175px;
     height: 20px;
     font-size: 17px;
-    font-family: serif;
+    font-family: sans-serif;
     color: #010101;
     background-color: #B4B7BA;
 }
